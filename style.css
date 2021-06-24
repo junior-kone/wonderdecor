@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(185, 184, 183);
+}
+
+nav a{
+    text-decoration: none;
+    margin: 20px;
+    font-family: sans-serif;
+    color: gray;
+}
+nav a:hover{ 
+    color: black;
+}
+
+.social{
+    float: right;
+    opacity: .7;
+}
+
+.baniere{
+    height: 300px;
+    background: url("img/bienvenue.png") no-repeat center center/cover;
+}
+.main{
+    float: left;
+    background: #fff;
+    width: calc(100% - 375px);
+    position: relative;
+    box-shadow: 0 4px 30px black;
+    z-index: 2;
+}
+
+.slidebar{
+    float: right;
+    background: #fbfbfb;
+    width: 375px;
+    padding: 40px;
+    position: static;
+    z-index: 1;
+    text-align: center;
+}
+.slidebar-title{
+    font-size: 30px;
+    color: black;
+    margin: 35px 0;
+    
+}
+.slidebar a{
+    text-decoration: none;
+    margin: 0;
+}
+.article{
+    overflow: hidden;
+}
+
+.article-img{
+    float: left;
+    width: 100px;
+}
+.article-img img{
+    width: 100%;
+    height: auto;
+}
+
+.article-title a{
+    color: rgb(253, 184, 100);
+}
+
+
+.footer{
+    clear: both;
+    background-color: rgb(37, 37, 37);
+    width: auto;
+    height: 200px;
+    color: blanchedalmond;
+}
+.disposition{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+.centrer{
+    text-align: center;
+}
